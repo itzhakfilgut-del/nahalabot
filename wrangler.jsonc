@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-transport-bot",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-16",
+
+  "vars": {
+    "VERIFY_TOKEN": "CHANGE_ME",
+    "WELCOME_IMAGE_URL": "",
+    "REGISTRATION_OWNER_PHONE": "",
+    "MORE_DETAILS_MESSAGE": ""
+  },
+
+  "kv_namespaces": [
+    {
+      "binding": "SESSIONS",
+      "id": "YOUR_KV_ID"
+    }
+  ]
+}
